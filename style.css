@@ -1,38 +1,19 @@
-@keyframes example1 {
-    0%{
-        left: -200px;
-        opacity: 0;
-    }
-    100%{
-        left: 200px;
-        opacity: 1;
-    }
+.parent{
+    background-color: aquamarine;
 }
-.box{
-    left: 200px;
-    width:200px;
-    height:50px;
-    background-color:rgb(145, 180, 18);
-    position:relative;
-    border-radius:10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(255, 0, 200);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    animation: example1 3s ease 1s;
-   margin: 5px;
+.child{
+    background-color: rgb(43, 144, 226);
+}
+.submit{
+    background-color: rgb(168, 168, 73);
+    text-decoration: solid;
+}
 
+.parent{
+    background-color: lightcoral;
+    height: 500px;
 }
-.box:hover{
-    transform: scale(1.1);
-    cursor: pointer;
-    transition:1s;
-}
-p::before{
-    content: "heyoo!!";
-}
-.box:nth-child(odd)
-{
-    background-color: rgb(178, 142, 212);
+
+.child{
+    background-color: rgb(28, 131, 88);
 }
